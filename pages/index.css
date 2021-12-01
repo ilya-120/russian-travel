@@ -5,7 +5,11 @@
 @import url(../bloks/header/__logo/header__logo.css);
 @import url(../bloks/header/__lang-links/header__lang-links.css);
 @import url(../bloks/header/__lang-link/header__lang-link.css);
-
+@import url(../bloks/lead/lead.css);
+@import url(../bloks/lead/__title/lead__title.css);
+@import url(../bloks/lead/__subtitle/lead__subtitle.css);
+@import url(../bloks/lead/__image/lead__image.css);
+@import url(../bloks/lead/__caption/lead__caption.css);
 
 * {
   Outline: 1px solid red;
