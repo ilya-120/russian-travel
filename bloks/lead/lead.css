@@ -3,29 +3,26 @@
   flex-direction: column;
 }
 
-@media screen and (min-width: 1024px)  {
+@media screen and (min-width: 1280px)  {
   .lead {
     margin: 56px 148px 0;
   }
 }
 
-@media screen and (min-width: 999px) and (max-width: 1024px) {
+@media screen and (min-width: 999px) and (max-width: 1279px) {
   .lead {
-    max-width: 962px;
     margin: 48px 48px 0;
   }
 }
 
 @media screen and (min-width: 425px) and (max-width: 999px) {
   .lead {
-    width: 100%;
     margin: 48px 0 0;
   }
 }
 
 @media screen and (max-width: 425px) {
   .lead {
-    width: 100%;
     margin: 48px 2px 0;
   }
 }
