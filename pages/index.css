@@ -17,6 +17,16 @@
 @import url(../bloks/intro/__list-point/intro__list-point.css);
 @import url(../bloks/photo-grid/photo-grid.css);
 @import url(../bloks/photo-grid/__item/photo-grid__item.css);
+@import url(../bloks/places/places.css);
+@import url(../bloks/place/place.css);
+@import url(../bloks/place/__title/place__title.css);
+@import url(../bloks/place/__image/place__image.css);
+@import url(../bloks/place/__website/place__website.css);
+@import url(../bloks/place/__url-heading/place__url-heading.css);
+@import url(../bloks/place/__link/place__link.css);
+@import url(../bloks/place/__paragraph/place__paragraph.css);
+@import url(../bloks/place/__paragraphs/place__paragraphs.css);
+
 
 * {
   Outline: 1px solid red;
