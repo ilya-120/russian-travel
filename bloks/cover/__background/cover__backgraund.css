@@ -1,0 +1,11 @@
+.cover__backgraund {
+  background-image: url(../../../Images/cover-trains.jpg);
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr min-content 1fr;
+  justify-items: center;
+  margin: 0;
+  text-decoration: none;
+}
