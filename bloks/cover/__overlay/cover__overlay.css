@@ -7,3 +7,8 @@
   grid-column-start: 1;
   grid-column-end: 2;
 }
+
+.cover__overlay:hover {
+  opacity: 0.5;
+  transition: opacity 0.3s;
+}
