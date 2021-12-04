@@ -2,27 +2,25 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
+  gap: 16px;
+  margin: 92px 48px 0;
 }
 
 @media screen and (min-width: 1025px) {
   .photo-grid {
     grid-template-columns: repeat(4, 1fr);
-    gap: 16px;
-    margin: 92px 48px 0;
   }
 }
 
 @media screen and (min-width: 999px) and (max-width: 1024px) {
   .photo-grid {
     gap: 14px;
-    margin: 92px 48px 0;
   }
 }
 
 @media screen and (min-width: 425px) and (max-width: 999px) {
   .photo-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 16px;
     margin: 88px 24px 0;
   }
 }

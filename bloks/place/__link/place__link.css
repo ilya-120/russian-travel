@@ -8,4 +8,5 @@
 .place__link:hover {
   opacity: 0.5;
   transition: opacity 0.3s;
+  cursor: pointer;
 }

@@ -4,7 +4,7 @@
 }
 @media screen and (min-width: 1280px) {
   .intro {
-    max-width: 690px;
+    width: calc(100% - 442px - 148px);
     margin-top: 92px;
     margin-left: 148px;
   }
@@ -12,7 +12,7 @@
 
 @media screen and (min-width: 999px) and (max-width: 1279px) {
   .intro {
-    max-width: 690px;
+    width: calc(100% - 286px - 48px);
     margin-top: 92px;
     margin-left: 48px;
   }
@@ -20,12 +20,14 @@
 
 @media screen and (min-width: 425px) and (max-width: 999px) {
   .intro {
-    margin: 88px 24px 0;
+    width: calc(100% - 24px * 2);
+    margin: 88px auto 0;
   }
 }
 
 @media screen and (max-width: 425px) {
   .intro {
-    margin: 64px 16px 0;
+    width: calc(100% - 16px * 2);
+    margin: 64px auto 0;
   }
 }

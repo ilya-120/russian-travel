@@ -8,7 +8,8 @@
   grid-column-end: 2;
 }
 
-.cover__overlay:hover {
+.cover:hover .cover__overlay {
   opacity: 0.5;
   transition: opacity 0.3s;
+  cursor: pointer;
 }
