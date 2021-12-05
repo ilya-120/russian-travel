@@ -1,10 +1,12 @@
 .header__logo {
   width: 176px;
-  object-fit: cover;
+  height: 52px;
+  object-fit: contain;
 }
 
 @media screen and (max-width: 767px) {
   .header__logo {
     width: 142px;
+    height: 42px;
   }
 }
