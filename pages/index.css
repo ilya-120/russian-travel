@@ -34,11 +34,3 @@
 @import url(../bloks/footer/footer.css);
 @import url(../bloks/footer/__link/footer__link.css);
 @import url(../bloks/footer/__copyright/footer__copyright.css);
-
-* {
-  Outline: 1px solid red;
-}
-
-body {
-  background-color: aqua;
-}
