@@ -1,7 +1,9 @@
 .cover__backgraund {
   background-image: url(../../../Images/cover-trains.jpg);
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   background-position: center;
+  aspect-ratio: 16 / 10;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr min-content 1fr;
@@ -9,6 +11,3 @@
   margin: 0;
   text-decoration: none;
 }
-
-
-

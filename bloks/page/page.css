@@ -2,6 +2,7 @@
   background-color: #2A2C2F;
   color: #FFFFFF;
   width: 100%;
+  min-width: 320px;
   margin: 0 auto;
   font-family: 'Inter', Arial, sans-serif;
   -moz-osx-font-smoothing: grayscale;
