@@ -1,15 +1,11 @@
 .places {
+  max-width: 984px;
   display: grid;
   flex-direction: column;
+  margin: 92px auto 0;
 }
 
-@media screen and (min-width: 1280px) {
-  .places {
-    margin: 92px 148px 0;
-  }
-}
-
-@media screen and (min-width: 999px) and (max-width: 1279px) {
+@media screen and (min-width: 999px) and (max-width: 1080px) {
   .places {
     margin: 92px 48px 0;
   }
