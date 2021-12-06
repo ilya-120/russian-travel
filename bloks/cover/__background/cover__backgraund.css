@@ -3,11 +3,17 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  aspect-ratio: 16 / 10;
+
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr min-content 1fr;
   justify-items: center;
   margin: 0;
   text-decoration: none;
+}
+
+@media screen {
+  .cover__backgraund {
+    aspect-ratio: 16 / 10;
+  }
 }
