@@ -1,17 +1,16 @@
 .header__lang-link {
   color: #FFFFFF;
-  font-family: Inter;
+  font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 28px;
   text-align: right;
-  text-decoration-line: underline;
+  text-decoration-line: none;
   margin: 0;
 }
 
 .header__lang-link:last-of-type {
-  text-decoration-line: none;
   margin-left: 18px;
 }
 
@@ -20,5 +19,11 @@
     font-size: 18px;
     line-height: 20px;
   }
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s;
+  cursor: pointer;
 }
 

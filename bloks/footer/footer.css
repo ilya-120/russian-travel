@@ -1,7 +1,7 @@
 .footer {
   max-width: 1184px;
   display: grid;
-  grid-template-columns: repeat(5, min-content) 2fr;
+  grid-template-columns: min-content 2fr;
   gap: 18px;
   margin: 92px auto 0;
   padding-bottom: 24px;
@@ -20,10 +20,10 @@
 }
 
 @media screen and (max-width: 767px) {
-  .footer{
+  .footer {
     max-width: 186px;
     grid-template-columns: min-content;
-    grid-template-rows: repeat(6, min-content);
+    grid-template-rows: repeat(2, min-content);
     gap: 32px;
     margin: 64px 16px 0;
   }
